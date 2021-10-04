@@ -1,0 +1,6 @@
+data_source: "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+
+artifacts:
+  artifacts_dir: artifacts
+  raw_local_dir: raw_local_dir
+  raw_local_file: data.csv
