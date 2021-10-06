@@ -2,6 +2,7 @@ import yaml
 import os
 import pickle
 import json
+import datawig
 
 def read_yaml(path_to_yaml:str):
     with open(path_to_yaml) as yaml_file:
@@ -16,3 +17,4 @@ def create_directory(dirs: list):
 def save_local_df(df,path,index_status=False):
     df.to_csv(path,index=index_status)
     print(f"data is saved at {path}")
+
