@@ -24,4 +24,13 @@ def save_model(model,model_path):
         pickle.dump(model, files)
         print(f"model is stored at {model_path}")
 
+def load_model(model_path):
+    with open(model_path, 'rb') as f:
+        model_load=pickle.load(f)
+        return model_load
+def save_reports(report:dict,report_path:str):
+    with open(report_path,"w") as f:
+        json.dump(report,f,indent=4)
+        print(f"report are saved at{report_path}")
+
 

@@ -27,3 +27,14 @@ stages:
       - params.yaml
     outs:
       - artifacts/model_dir/model.pkl
+    
+  evaluate:
+    cmd: python src/stage_04.py
+    deps:
+      - src/stage_04.py
+      - src/utils/all_utils.py
+      - config/config.yaml
+      - artifacts/split_data_dir/test.csv
+      - artifacts/model_dir/model.pkl
+    outs:
+      - artifacts/report_dir/report.json
