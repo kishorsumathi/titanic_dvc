@@ -28,8 +28,7 @@ def train(config_path,params_path):
     y_train=df["Survived"]
     model=RandomForestClassifier(n_estimators=n_tree,criterion=criteria,max_depth=depth,oob_score=score)
     model.fit(x_train,y_train)
-    save_model(model,saved_model)
-    
+    save_model(model,saved_model)  
 
 
 
