@@ -18,3 +18,10 @@ def save_local_df(df,path,index_status=False):
     df.to_csv(path,index=index_status)
     print(f"data is saved at {path}")
 
+
+def save_model(model,model_path):
+    with open(model_path, 'wb') as files:
+        pickle.dump(model, files)
+        print(f"model is stored at {model_path}")
+
+
