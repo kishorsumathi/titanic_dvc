@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="src",
+    name="titanic_model_src",
     version="0.0.2",
     author="kishor G",
     description="A small package for  ml pipeline demo",
