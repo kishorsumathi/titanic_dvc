@@ -13,7 +13,7 @@ setup(
     description="A small package for  ml pipeline demo",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/kishorsumathi/dvc_practice",
+    url="https://github.com/kishorsumathi/titanic_dvc.git",
     author_email="kishorbrindha18@gmail.com",
     project_urls={
         "Bug Tracker": f"https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
