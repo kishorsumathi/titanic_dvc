@@ -8,8 +8,8 @@ USER_NAME = "kishor"
 
 setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.2",
-    author="kishor G",
+    version="0.0.1",
+    author="kishor",
     description="A small package for  ml pipeline demo",
     long_description=long_description,
     long_description_content_type="text/markdown",
